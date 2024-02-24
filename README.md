@@ -1,3 +1,3 @@
-# Automated-Email
+# Automated Email
 
-This Python will allow you to send emails at specified days and times with just the input of your email and password.
+A Python-powered automated email sender that will allow you to send emails at specific times and days with just the input of your email and password. 
