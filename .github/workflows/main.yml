@@ -1,0 +1,17 @@
+name: Language Stats
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README.md
+        run: |
+          npx github-contributions --owner TiffanyLo19 --repo Kana-ChatBot --branch main
