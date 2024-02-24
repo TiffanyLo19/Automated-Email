@@ -14,4 +14,4 @@ jobs:
 
       - name: Update README.md
         run: |
-          npx github-contributions --owner TiffanyLo19 --repo Kana-ChatBot --branch main
+          npx github-contributions --owner TiffanyLo19 --repo Automated-Email --branch main
